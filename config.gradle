@@ -2,7 +2,7 @@ ext{
     //构建相关配置
     android =[
             compileSdkVersion: 28,
-            buildToolsVersion: "28.0.2",
+            buildToolsVersion: "28.0.3",
             minSdkVersion    : 15,
             targetSdkVersiob : 28,
             versionCode      : 1,
