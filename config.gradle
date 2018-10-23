@@ -15,9 +15,10 @@ ext{
             design    : 'com.android.support:design:28.0.0',
             kotlin    : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$ext.kotlin_version",
             anko      : "org.jetbrains.anko:anko-common:0.9",
-            constraint: 'com.android.support.constraint:constraint-layout:+'
-
+            constraint: 'com.android.support.constraint:constraint-layout:+',
+            lifecycle : 'android.arch.lifecycle:extensions:1.1.1'
     ]
+
 
 
 }
