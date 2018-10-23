@@ -1,0 +1,23 @@
+ext{
+    //构建相关配置
+    android =[
+            compileSdkVersion: 28,
+            buildToolsVersion: "28.0.2",
+            minSdkVersion    : 15,
+            targetSdkVersiob : 28,
+            versionCode      : 1,
+            versionName      : "1.0"
+
+    ]
+//   依赖相关配置
+    dependencies =[
+            supportV7 : 'com.android.support:appcompat-v7:28.0.0',
+            design    : 'com.android.support:design:28.0.0',
+            kotlin    : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$ext.kotlin_version",
+            anko      : "org.jetbrains.anko:anko-common:0.9",
+            constraint: 'com.android.support.constraint:constraint-layout:+'
+
+    ]
+
+
+}
